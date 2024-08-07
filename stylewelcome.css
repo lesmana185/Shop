@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: arial;
+    background-color: whitesmoke;
 }
 
 .hero{
@@ -17,12 +18,12 @@ body{
     min-height: 100vh;
 }
 
-.video-bg{
+/* .video-bg{
     position: absolute;
     min-width: 100px;
     min-height: 100px;
     z-index: -1;
-}
+} */
 
 .hero .tombol{
     position: absolute;
