@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.3);
+    color: rgba(255,255,255, 0.5);
+    font-size: 3em;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.video-bg{
+    position: absolute;
+    min-width: 100px;
+    min-height: 100px;
+    z-index: -1;
+}
+
+.hero .tombol{
+    position: absolute;
+    bottom: 232px;
+    font-size: 35px;
+}
+
+.hero .tombol a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+.hero .tombol a:hover{
+    color: salmon;
+    font-size: 40px;
+}
